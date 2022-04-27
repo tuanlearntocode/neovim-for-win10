@@ -1,5 +1,7 @@
 local set = vim.opt
 
+vim.notify = require("notify")
+
 set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
@@ -24,3 +26,7 @@ set.cursorline = true
 set.hidden = true
 set.mouse = 'nvi'
 set.clipboard = 'unnamedplus'
+--set.noswapfile = true
+--set.nobackup = true
+set.nowritebackup = true
+

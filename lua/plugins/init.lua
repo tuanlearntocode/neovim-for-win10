@@ -8,7 +8,17 @@ return require'packer'.startup(function()
     use 'leafOfTree/vim-matchtag'
     use 'tpope/vim-surround'
     use 'lukas-reineke/indent-blankline.nvim'
-    use 'feline-nvim/feline.nvim'
     use 'dracula/vim'
     use 'EdenEast/nightfox.nvim'
+    use 'neovim/nvim-lspconfig'
+    use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
+    use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
+    use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
+    use 'L3MON4D3/LuaSnip' -- Snippets plugin
+    use 'onsails/lspkind-nvim'
+    use 'rcarriga/nvim-notify'
+    use 'nvim-lualine/lualine.nvim'
+    use 'nvim-treesitter/nvim-treesitter-refactor'
+    use 'prettier/vim-prettier'
 end)
+

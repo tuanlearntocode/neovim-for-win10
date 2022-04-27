@@ -20,5 +20,7 @@ return require'packer'.startup(function()
     use 'nvim-lualine/lualine.nvim'
     use 'nvim-treesitter/nvim-treesitter-refactor'
     use 'prettier/vim-prettier'
+    use 'windwp/nvim-autopairs'
+    use 'terrortylor/nvim-comment'
 end)
 

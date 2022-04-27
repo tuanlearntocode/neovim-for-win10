@@ -26,7 +26,4 @@ set.cursorline = true
 set.hidden = true
 set.mouse = 'nvi'
 set.clipboard = 'unnamedplus'
---set.noswapfile = true
---set.nobackup = true
-set.nowritebackup = true
 

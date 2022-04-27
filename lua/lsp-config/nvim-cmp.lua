@@ -65,3 +65,14 @@ lspconfig.emmet_ls.setup({
     capabilities = capabilities,
     filetypes = { "html", "css", "typescriptreact", "javascriptreact" },
 })
+
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+require'lspconfig'.html.setup {
+  capabilities = capabilities,
+}
+
+-- for python
+
+require'lspconfig'.pyright.setup{}

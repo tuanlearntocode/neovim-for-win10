@@ -8,6 +8,7 @@ Clone this repo to `~/AppData/Local/`
 Run this line in powershell `git clone https://github.com/wbthomason/packer.nvim "~\AppData\Local\nvim-data\site\pack\packer\start\packer.nvim"`
 ### 5: Install Plugin
 Run `:PackerInstall`
+
 Run `:PackerSync`
 ### 6: Install Lsp server you need 
 Go to this site https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md and install your client using _npm_

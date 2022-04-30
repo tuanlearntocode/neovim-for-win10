@@ -1,7 +1,7 @@
 # neovim-for-win10 
-### 1. Install chocolately, git
+### 1. Install chocolately, scoop
 ### 2. Install neovim using chocolately
-`choco install neovim`
+`scoop install neovim`
 ### 3. Config
 Clone this repo to `~/AppData/Local/`
 ### 4: Install packer

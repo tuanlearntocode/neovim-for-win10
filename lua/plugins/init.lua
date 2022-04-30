@@ -1,3 +1,5 @@
+vim.cmd [[packadd packer.nvim]]
+
 return require'packer'.startup(function()
 	use 'wbthomason/packer.nvim'
     use 'folke/tokyonight.nvim'
@@ -18,9 +20,12 @@ return require'packer'.startup(function()
     use 'onsails/lspkind-nvim'
     use 'rcarriga/nvim-notify'
     use 'nvim-lualine/lualine.nvim'
-    use 'nvim-treesitter/nvim-treesitter-refactor'
-    use 'prettier/vim-prettier'
     use 'windwp/nvim-autopairs'
     use 'terrortylor/nvim-comment'
+    use {
+      'nvim-telescope/telescope.nvim',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
+    use 'prettier/vim-prettier'
 end)
 

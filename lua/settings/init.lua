@@ -26,4 +26,6 @@ set.cursorline = true
 set.hidden = true
 set.mouse = 'nvi'
 set.clipboard = 'unnamedplus'
-
+vim.g.noswapfile = true
+vim.g.nobackup = true
+vim.g.nowritebackup = true
